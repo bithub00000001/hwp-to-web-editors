@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CKEditor4 Test</title>
+  <script src="ckeditor4/ckeditor.js"></script>
+  <script src="ckeditor_config.js"></script>
+</head>
+<body>
+  <textarea name="editor1" id="editor1"></textarea>
+
+  <script>
+    window.onload = function() {
+      CKEDITOR.replace("editor1", getEditorConfig());
+    }
+  </script>
+</body>
+</html>
